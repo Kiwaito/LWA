@@ -1,0 +1,602 @@
+.s1 .avaus, .s2 .avaus, .s3 .avaus, .s4 .avaus, .s5 .avaus, .s6 .avaus, .s7 .avaus, .s10 .avaus {display:none;}
+li.row.s6 {height:0;}
+li.row.s8:last-child {
+    margin-bottom: 50px;
+}
+
+.s8 .ute span, .s9 .ute span {
+    font-size: 8px;
+}
+
+/* Relleno */
+.s10 .ute {
+    margin: 0;
+}
+
+.separador {
+    background: var(--letra);
+    height: 100px;
+    width: 1px;
+    right: -45px;
+    position: absolute;
+    top: 10px;
+    opacity: 0.2;
+}
+
+.s10 .infosubforo {
+    text-align: justify;
+    margin-top: -10px;
+}
+
+.s10 .subna a {
+    width: 300px;
+    display: block;
+    margin-left: -30px;
+    text-align: center;
+    font-family: var(--flo);
+}
+
+.s10 .subf1 {
+    width: 300px;
+    margin-left: 45px;
+    border: 0;
+    margin-right: 40px;
+    z-index: 1;
+  border-radius:0;overflow: visible;
+}
+
+/* Rol 2 */
+.s9 .subf1 {width: 1050px;
+    margin-left: 50px;
+    z-index: 1;
+    height: 250px;}
+
+.s9 .subf1 {
+    margin-top: 10px;
+    margin-bottom: 60px!important;
+}
+
+.s9 .deridecorol {
+    right: revert;
+}
+
+.s9 .avaus img {
+    right: revert;
+    width: 160px;
+    bottom: 0;
+    border-radius: 0;
+    left: 40px;
+}
+
+.s9 .imafon {
+    position: absolute;
+    top: 0;
+    left: 200px;
+}
+
+.s9 .linksubfororol {
+    left: 200px;
+}
+
+.s9 .subna {
+    position: absolute;
+    right: 25px;
+    margin-top: 30px;
+}
+
+.s9 .subtitutlofororol {
+    right: 25px;
+    top: 65px;
+}
+
+.s9 .infosubforo {
+    width: 190px;
+    position: absolute;
+    right: 25px;
+    top: 90px;
+    text-align: justify;
+}
+
+.s9 .ute {
+    position: absolute;
+    left: 800px;
+    bottom: 0;
+}
+
+
+
+/* Rol 1*/
+.linksubfororol:hover {transition:1s ease;opacity:1}
+
+
+.s8 .ute {
+    position: absolute;
+    bottom: 0px;
+}
+
+.s8 .avaus img {
+    border-radius: 0;
+    bottom: 0;
+    width: 160px;
+    right: 40px;
+}
+
+.deridecorol {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40px;
+    height: 100%;
+}
+
+.linksubfororol2 a {
+    font-family: var(--pop);
+    font-size: 11px;
+    background: var(--color1);
+    color: black;
+    padding: 5px 20px;
+    line-height: 29px;
+    border-radius: 5px;
+}
+
+.s8 .linksubfororol {left: 250px;}
+
+.linksubfororol {
+    position: absolute;
+    background: #0000007a;
+    width: 600px;
+    height: 250px;transition:1s ease; opacity:0;
+    top: 0;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.subtitutlofororol {
+    font-family: var(--pop);
+    text-transform: uppercase;
+    font-size: 9px;
+    position: absolute;
+}
+
+.s8 .infosubforo {
+    position: absolute;
+    font-size: 12px;
+    width: 180px;
+    text-align: justify;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+
+.s8 .subtitutlofororol {
+    left: 35px;
+    top: 65px;
+}
+
+
+.s8 .subf1 {
+    width: 1050px;
+    margin-left: 50px;
+    margin-top: -50px;
+    z-index: 1;
+    height: 250px;
+}
+
+.s8 .subna a, .s9 .subna a {
+    font-family: var(--flo);
+}
+
+.s8 .subna {
+    margin-top: 30px;
+}
+
+.s8 .imafon {
+    position: absolute;
+    top: 0;
+    left: 250px;
+}
+
+/* Busquedas */
+.s7 .subf1 {
+    margin-top: -150px;
+    margin-left: 433px;
+}
+
+.s7 .infosub {
+    margin-left: 7px;
+    margin-top: 2px;
+    width: 320px;
+}
+
+.s7 .ute {
+    margin-left: 7px;
+    margin-top: 22px;
+}
+
+
+/* Registros*/
+.s5 .subf1 {
+    margin-top: -300px;
+    margin-left: 80px;
+}
+
+.s5 .infosub {
+    margin-top: 5px;
+    margin-left: 7px;
+    width: 320px;
+}
+
+.s5 .ute {
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+
+
+
+
+/* Expedientes */
+.s4 .subf1 {
+    height: 360px;
+    border: 0;
+    width: 1120px;
+    margin-top: -100px;
+    overflow: visible;
+}
+
+.s4 .circueima {
+    left: revert;
+    right: 0;
+}
+
+.s4 .sepasubfoinfo {
+    left: revert;
+    width: 900px;
+    right: 175px;
+    bottom: 52px;
+}
+
+.s4 .subna, .s5 .subna, .s6 .subna, .s7 .subna {
+    margin: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.s4 .subna a, .s5 .subna a, .s6 .subna a, .s7 .subna a {
+    font-family: var(--flo);
+    font-size: 35px;
+}
+
+.s4 .subna {
+    position: absolute;
+    top: 60px;
+    left: 50px;
+}
+
+.infosub {
+    color: var(--color2);
+    position: absolute;
+    text-align: justify;
+    font-size: 12px;
+}
+
+.s4 .ute {
+    position: absolute;
+    left: 50px;
+    top: 135px;
+    margin: 0;
+}
+
+.s4 .infosub {
+    width: 320px;
+    left: 50px;
+    top: 100px;
+}
+
+/* Baul*/
+
+.s5 .subf1, .s6 .subf1, .s7 .subf1 {
+    border: 0;
+    overflow: visible;
+    left: 0;
+}
+
+.s6 .subf1 {
+    width: 300px;
+    margin-top: -150px;
+    margin-left: 40px;
+}
+
+.s6 .infosub {
+    width: 320px;
+    margin-left: 8px;
+    margin-top: 2px;
+}
+
+.s6 .ute {
+    margin-left: 10px;
+    margin-top: 22px;
+}
+
+
+/* Eventos */
+.s3 .subna {
+    margin: 0;
+}
+
+.s3 .ute, .s3 .ute span {
+    display: flex;align-items: stretch;
+}
+
+.s3 .ute strong {
+    display: none;
+}
+
+.s3 .ute span a {
+    margin-left: 5px;
+}
+
+.s3 .ute {
+    margin: 0;
+    position: absolute;
+    bottom: -15px;
+    right: 25px;
+    width: 520px;
+    justify-content: flex-end;top: 38px;
+}
+
+
+.s3 .subna a {
+    font-family: var(--flo);
+    font-size: 40px;
+}
+
+.s3 .subf1 {
+    border: 0;
+    margin-left: 545px;
+    margin-top: -25px;
+    z-index: 2;
+    margin-bottom: -5px;
+    position: relative;
+    width: 435px;
+    overflow: visible;
+}
+
+/* Administracion */
+.s2 .subf1 {
+    width: 400px; margin-top: -100px;
+    border: 0;     overflow: visible;
+}
+
+.s2 .subna {
+    margin: 0;
+    margin-top: 55px;
+}
+
+.s2 .infosub {
+    width: 367px;
+    margin-top: 5px;
+}
+
+
+.s2 .linksfaciles {
+    left: 0; top: 115px;
+    width: 365px;
+}
+
+.s2 .linksfaciles a {
+    width: 170px;
+}
+
+.s2 .ute {
+    margin-top: 135px;
+    margin-left: 0;
+}
+
+/* Informacion */
+.sepasubfoinfo {
+    width: 940px;
+    height: 1px;
+    background: var(--letra);
+    position: absolute;
+    bottom: 53px;
+    left: 185px;
+}
+
+.linksfaciles {
+    width: 300px;
+    position: absolute;
+    left: 367px;
+    top: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.linksfaciles a {
+    font-family: var(--pop);
+    font-size: 10px;
+    display: flex;
+    border-bottom: 1px solid #1a1a1a;
+    width: 140px;
+    margin: 0 0px 5px 0; transition:1s ease;
+}
+
+.linksfaciles a:before {
+    content: '\f004';
+    font-family: 'FontAwesome';
+    font-size: 6px;
+    margin-top: 5px;
+    margin-right: 5px;
+    color: var(--ispicial);
+}
+
+.linksfaciles a:hover {letter-spacing:1px; transition:1s ease; color:var(--color2);}
+
+
+.s1 .subna a, .s2 .subna a {
+    font-family: var(--flo);
+    font-size: 40px;
+}
+
+.s1 .subna {
+    position: absolute;
+    left: 330px;
+    top: 40px;
+}
+
+.s1 .infosub {
+    width: 300px;
+    left: 367px;
+    top: 100px;
+}
+
+.s1 .ute {
+    display: none;
+}
+
+.s1 .subf1 {
+    width: 700px; margin-top: -100px;
+    border: 0;
+    overflow: visible; height:360px;
+}
+
+.circueima {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.circulito {
+    background: var(--marquito);
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 340px;
+    height: 340px;
+    position: relative;
+    z-index: 2;
+}
+
+img.imacircu {
+    border-radius: 100%;z-index:1;
+    width: 250px;
+    height: 250px;
+    margin-left: 40px;
+    margin-top: -9px;
+    position: absolute;
+}
+
+
+
+/* Base - Rol peques */
+ul.topiclist.forums {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.s1 .subf1, .s2 .subf1, .s3 .subf1, .s4 .subf1, .s5 .subf1, .s6 .subf1, .s7 .subf1, .s8 .subf1, .s9 .subf1 {margin-bottom: 0px;}
+
+.subf1 {
+    border: 1px solid #232323;
+    border-radius: 15px;
+    margin-right: 10px;
+    width: 565px;
+    overflow: hidden;     position: relative;     margin-bottom: 10px;
+}
+
+.subna a {
+    font-family: var(--pop);
+    font-size: 35px;
+    letter-spacing: -2px;
+}
+
+.subna {
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.ute {
+    margin-left: 30px; font-size: 10px;
+    margin-bottom: 15px; font-family: var(--pop); text-transform: uppercase;
+}
+
+.ute b {
+    font-weight: normal;
+}
+
+.ute span {
+    color: var(--color2);
+    margin-left: 5px;
+}
+
+.ute span strong {
+    font-weight: normal;
+    font-size: 20px;
+    margin-left: -3px;
+    line-height: 10px;
+}
+
+.imafondo img {
+    width: 100%;
+    border-top: 1px solid #232323;
+    border-bottom: 1px solid #232323;
+}
+
+.avaus img {
+    width: 100px;
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+    border-radius: 10px;
+}
+
+/* Categorias */
+.categoria h2 {
+    font-family: var(--flo);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    background: var(--fondo);
+    font-size: 55px;
+    letter-spacing: -6px;
+    width: 430px;
+    position: relative;
+    z-index: 1;
+    margin-left: 45px;
+}
+
+
+.categoria:after {
+    content: ' ';
+    background: var(--decoracionhojita);
+    display: flex;
+    width: 800px;
+    height: 120px;
+    background-size: contain;
+    margin-left: 365px;
+    position: absolute;
+    margin-top: -185px;
+}
+
+.categoria {
+    margin-top: -80px;
+}
+.s5 .ute, .s7 .ute {
+    width: 320px;
+    text-align: end;
+}.s2 .ute {
+    margin-top: 135px;
+    margin-left: 0;
+    margin-right: 30px;
+text-align: end;}
+.s3 .ute span {
+    margin-top: 2px;
+}

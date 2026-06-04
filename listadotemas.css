@@ -1,0 +1,141 @@
+/* Listado de temas */
+.temul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 10px;
+    text-transform: uppercase;
+    color: #4f4f4f;
+}
+
+.abajitemis {
+    bottom: 25px;
+    position: absolute;
+    font-family: var(--pop);
+    font-size: 11px;
+}
+
+.temul a strong {
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 17px;
+}
+
+.temisyvistos {
+    position: absolute;
+    font-family: var(--pop);
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    width: 180px;
+    color: #4f4f4f;
+    bottom: 70px;
+}
+
+
+
+.aviusi:after {
+    content: ' ';
+    background: var(--hojitasabias);
+    display: block;
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    background-size: contain;
+    left: 45px;
+    top: 175px;
+    transform: rotate(180deg);
+}
+
+
+.eletem {
+    border: 1px solid var(--fondo2);
+	border-bottom-color: #919191;
+	border-right-color: #919191;
+    border-radius: 15px;
+    width: 340px;
+    overflow: hidden;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    height: 340px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.temiwi a {
+    font-family: var(--pop);
+    font-size: 14px;
+}
+
+.temiwi span {
+    font-family: var(--pop);
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #919191;
+    line-height: 15px;
+}
+
+.temiwi span strong {font-weight:normal;}
+
+.temiwi {
+    position: absolute;
+    text-align: center;
+    line-height: 11px;
+    width: 300px;
+    top: 35px;
+}
+
+.aviusi {
+    border-radius: 100px 100px 0 0;
+    overflow: hidden;
+    width: 150px;
+    height: 180px;
+}
+
+.aviusi  img {width: 150px;}
+
+.sepaa {
+    text-align: center;
+    font-family: var(--flo);
+    font-size: 30px;
+    margin: 50px 0;
+}
+
+ul.topiclist.topics.bg_none {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1050px;
+    margin-left: 50px;
+}
+
+
+.otracosi.jewe {
+    font-size: 10px;
+    position: absolute;
+    right: 25px;
+    text-transform: uppercase;
+    font-family: var(--pop);
+    margin-top: -32px;
+}
+
+  .nuevote {
+    border-top: 1px solid #2f2f2f;
+    border-bottom: 1px solid #2f2f2f;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+}
+  
+  .nuevote a {
+    font-family: var(--flo);
+    text-transform: lowercase;
+    font-size: 20px;
+}
+  
+  .nuevote i {
+    font-size: 20px;     margin-right: 10px;
+}

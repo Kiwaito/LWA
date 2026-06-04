@@ -1,0 +1,356 @@
+.nabvega a:before { font-family: 'bootstrap-icons'; content: '\F59D'; margin-right: 3px; font-size: 9px; color: var(--letra); }
+.nabvega a { text-decoration: none!important; font-family: var(--pop); font-size: 11px; transition:1s ease;}
+.nabvega a:hover {margin-left:6px;transition:1s ease;}
+.nabvega .sublira { color: #6f6f6f; margin-left: 10px; }
+.nabvega a.sublira:before { color: #8f8f8f;}
+.nabvega a.sublira:hover {margin-left:16px;}
+
+.linkregis {display:flex;margin-top:-14px;}
+.linkregis a { text-decoration:none;color: black; background: var(--prin); text-transform: uppercase; font-family: var(--pop); margin-right: 1px; width: 100%; text-align: center; height: 25px; display: flex; align-items: center; justify-content: center; text-decoration: none; }
+.actutu { font-family: var(--pop);font-size: 11px; padding: 10px 30px 30px 30px; }
+
+/* Registros */
+.loveregi { border-bottom: 1px solid; border-top: 1px solid; font-family: var(--ae); font-size: 30px; padding: 20px;}
+.registro {
+    margin-top: 15px;
+    font-family: var(--pop);
+    margin-bottom: -10px;
+    width: 235px;
+}
+.registro a:before { font-family: 'bootstrap-icons'; content: '\F59D'; margin-right: 3px; font-size: 9px; color: var(--pj); }
+.registro a { text-decoration: none!important; color: var(--pj); text-transform: uppercase; }
+.loveregistro {
+    column-count: 2;
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.lovewinsall2.deregistro { border-radius: 20px; width: 400px; margin: 0 auto; }
+
+/* Tienda */
+.item:hover { border: 1px solid #373737; transition:1s ease;}
+.item:hover img { width: 55px; height: 55px; transition: 1s ease; }
+.item { background: #161616; border: 1px solid black; position: relative; display: flex; margin: 10px 3px 15px 2px; width: 245px; justify-content: center;} 
+.item.chiki { height: 125px; } 
+.item {transition: 1s ease;}
+.item img { width: 50px; height: 50px; position: absolute; top: 17px; left: 20px; transition:1s ease;} 
+.item b { text-align: center;font-weight: 400; font-size: 15px; line-height: 12px; position: absolute; width: 170px; right: 0; height: 50px; top: 17px; display: flex; align-items: center; justify-content: center; } 
+.item i, descuento { font-style: normal; background: #1C1C1C; position: absolute; border-radius: 10px; bottom: 15px; text-transform: uppercase; padding: 4px 10px; font-size: 12px; } 
+.item i:before, descuento:before { content: '\f159'; font-family: Fontawesome; color: var(--ispicial); margin-right: 10px; }
+.item.chiki.nuevoitem { border: 1px solid white!important; }
+.item.chiki.nuevoitem:after, .item.chiki.descuentoitem:after { content: 'NOVEDAD'; background: white; color: black; padding: 2px 20px; border-radius: 0 0 10px 10px; font-weight: bold; font-size: 11px; position: absolute; bottom: -22px; left: 10px; } 
+.item.grandetienda { height: 230px; } 
+.item.grandetienda span { font-size: 12px; width: 200px; position: absolute; top: 80px; } 
+.item.chiki.descuentoitem { border: 1px solid var(--ispicial); } 
+.item.chiki.descuentoitem i { margin-left: -100px; font-size: 10px; padding: 3px 8px; } 
+.item.chiki.descuentoitem i:after { z-index: 1;content: '\f061'; font-family: 'FontAwesome'; position: absolute; font-size: 15px; margin-left: 4px; } 
+descuento:before {content:'\f02b';color: black;} .item.chiki.descuentoitem:after { background: var(--ispicial); color: white; content: 'OFERTA'; } 
+descuento { background: var(--ispicial); margin-left: 90px; }
+
+.navegaciontienda { background: #161616; width: 250px; position: relative;}
+.categoriastienda { background: #131313; border-radius: 20px 0 0 20px; font-weight: bold; font-size: 20px; width: 230px; margin-left: 20px; margin-top: 20px; height: 70px; display: flex; align-items: center; justify-content: center; }
+.todoslositems { display: flex ; flex-wrap: wrap;background: #131313; width: 100%; position: relative; box-sizing: border-box; padding: 20px; }
+.separadordetienda { width: 100%;font-weight: bold; color: var(--ispicial); border-bottom: 2px solid var(--ispicial); font-size: 25px; padding: 10px 25px; }
+.deslizartienda { position: sticky; top: 100px; height: 620px; }
+
+.secciondetienda { display: flex; font-family: var(--pop); }
+.navegaciontienda a { text-decoration: none!important; font-size: 11px; border-bottom: 1px solid #212121; width: 180px; display: block; margin-left: 35px; margin-bottom: -10px; height: 23px; transition:1s ease;}
+.navegaciontienda a:hover { color: #6D6D6D; letter-spacing: 0.5px; transition:1s ease;}
+.navegaciontienda i { color: black; margin-right: 5px; font-size: 13px; transition:1s ease;}
+.navegaciontienda a:hover i {color:var(--ispicial); transition:1s ease; font-size:15px;}
+
+.tiendanueva {width:1046px;position:relative;border-radius:10px 10px 0 0}
+.tiendacabecera {position:relative;height:250px;overflow:hidden;background:black;}
+.tiendacabecera img {width:1046px;opacity:.5}
+.titulodetienda {position:absolute;top:0;height:250px;display:flex;flex-direction:column;justify-content:center;font-family:var(--pop);left:40px;}
+.edicion {background:var(--ispicial);font-size:11px;padding:5px;margin-top:-10px;text-align:center;width:130px;}
+.nombredetienda {font-weight:bold;font-size:60px;display:flex;flex-direction:column;line-height:50px;margin-top:10px;}
+.nombredetienda b {color:var(--ispicial)}
+
+.tablontienda {background:var(--ispicial); overflow: hidden;height:230px;position:relative;display:flex;flex-wrap:wrap;gap:17px;box-sizing:border-box;padding:20px;}
+.columt {position:relative;text-align:justify;}
+.columt .titulotablon {background:#141414;font-family:var(--pop);font-size:14px;box-sizing:border-box;padding:2px 5px;margin:10px 0;}
+
+.primeracolumnatienda {width:210px;}
+.primeracolumnatienda a {background:linear-gradient(63deg,var(--ispicial) 0%,var(--ispicial2) 100%);color:white;border-radius:10px;font-family:var(--pop);padding:1px 10px;font-size:11px;transition:1s ease;}
+.primeracolumnatienda a:hover {background:linear-gradient(63deg,var(--ispicial2) 0%,var(--ispicial) 100%);transition:1s ease;}
+
+.segundacolumnatienda {width:400px;}
+.descuentodetemporada {display:flex;align-items:center;box-sizing:border-box;padding-right:16px;}
+.descuentodetemporada img {width:60px;margin-right:20px;}
+.descuentodetemporada descu {background:linear-gradient(63deg,var(--ispicial) 0%,var(--ispicial2) 100%);border-radius:10px;font-family:var(--pop);padding:1px 10px;font-size:11px;}
+.descuentodetemporada b {color:var(--ispicial2);}
+.itemsdestacado {background:#141414;margin-top:15px;display:flex;flex-wrap:wrap;box-sizing:border-box;padding:10px;height:80px;}
+.itemimagen img {width:43px;height:43px;}
+.primeraparte {width:300px;box-sizing:border-box;padding-right:5px;}
+.primeraparte b {color:var(--ispicial);font-family:var(--pop);font-size:14px;display:block;}
+.itemimagen {background:#1C1C1C;border:1px solid var(--ispicial);padding:7px;position:absolute;right:9px;}
+
+.terceracolumnatienda {width:325px;}
+.columt.terceracolumnatienda dl.codebox dt { border-radius: 0; padding: 10px; margin-top: -15px; background: #1C1C1C !important;}
+.codigostienda i { color: black; font-size: 25px;     margin-right: 5px;}
+.codigostienda { font-family: var(--pop); font-weight: bold; font-size: 20px; }
+.codigostienda .copyCode { background: #1C1C1C; right: revert; height: 25px; display: flex; align-items: center; }
+.codigostienda.regalo { margin-top: -140px;position: relative; z-index: 1;}
+.codigostienda.comprapersonal { margin-top: 13px; }
+
+.codigostienda.comprapersonal:before, .codigostienda.regalo:before { margin-top: 73px; content: ' '; display: block; background: var(--ispicial); width: 330px; height: 100px; position: absolute; z-index: 1; }
+
+compra { margin:10px auto; display: block; width: 370px; border-radius: 18px; overflow: hidden; font-family: var(--pop); background: #141414; }
+compra { padding: 16px 18px; color: #e8e8e8; font-size: 13px; position: relative; padding-top: 50px; box-sizing: border-box; padding-left: 30px; }
+compra::before { content: "RECIBO DE COMPRA"; display: block; background: var(--pj); text-align: center; letter-spacing: 2px; color: #fff; position: absolute; top: 0; left: 0; width: 100%; padding: 20px 0; box-sizing: border-box; text-transform: lowercase; font-family: var(--flo); font-size: 20px; }
+compra d {
+    display: block;
+    font-size: 12px;
+    color: var(--pj);
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+compra a {
+    display: inline-block;
+}
+compra d {
+    display: block;
+    font-size: 12px;
+    color: var(--pj);
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+compra m {
+    color: #ff6b6b;
+    font-weight: 600;
+}compra r {
+    color: #6bffb0;
+    font-weight: 600;
+}compra dl#codeBox {
+    background: transparent;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: -5px;
+}compra dl.codebox dt {
+    font-size: 0;
+    background: transparent!important;
+}compra .copyCode {
+    font-size: 10px;
+    position: absolute;
+    top: revert;
+    color: #818181;
+}compra dl.codebox dd {
+    background: transparent!important;
+    padding: 0;
+}compra code {
+    display: block!important;
+    margin-top: -12px!important;
+    padding: 14px!important;
+    background: #1c1c1c;
+    border-radius: 12px;
+    font-size: 12px!important;
+    color: #d0d0d0!important;
+    font-style: italic;
+    border: 1px solid rgba(255,255,255,0.05);
+    margin-left: -45px!important;
+}
+
+
+
+
+/* Periódico */
+.perio {width:616px;border:1px solid var(--letra);border-radius:20px;box-sizing:border-box;padding:25px;color: var(--letra);font-family:var(--pop);}
+.pcab {position: relative; display: flex;}
+.plinea {width:470px;height:1px;background:var(--letra);top:0px;position:absolute;}
+.ptitulo { font-family: var(--ae); font-size:45px; margin-top:15px;border-right:1px solid var(--letra);padding-right:20px;line-height:45px;padding-top:5px;}
+.psubtitulo {text-transform:uppercase;font-size:11px;width:155px;height:50px;margin-top:15px;margin-left:10px;display:flex;align-items:center;}
+.pedicion {height:50px;display:flex;align-items:center;justify-content:center;margin-top:15px;position:Absolute;right:10px;font-size:35px;}
+
+.psubte {background:var(--bckg2);border-right:120px solid var(--letra);text-transform:uppercase;display:flex;align-items:center;box-sizing:border-box;padding:5px;height:25px;font-size:10px;margin-top:10px;}
+
+.notiprincipal {position:Relative;height:280px;margin-top:15px;}
+.notiprincipal:before {content:' '; background:black; opacity:0.6;position:absolute;top:0;left:0;width:570px;height:280px;}
+.noticiatitulo {position:absolute;font-size:40px;font-weight:bold;width:300px;line-height:30px;top:30px;left:30px;}
+.noticiasubtitulo {font-size:12px;position:absolute;width:320px;text-align:justify;bottom:30px;left:20px;height:150px;box-sizing:border-box;padding:10px;overflow:auto;}
+
+.psecciondoble {display:flex;margin-top:10px;}
+.pseccionizquierda {width:270px;margin-right:24px;}
+.pseccionderecha {width:270px;}
+.titulodoble {border-bottom:1px solid var(--letra);text-transform:uppercase;font-size:11px;}
+.imagenytitulo {padding:10px;display:flex;font-size:13px;margin-top:10px;}
+.imagenytitulo img {width:100px;height:100px;margin-right:10px;}
+.descripcionsesion {font-size:12px;text-align:justify;padding:10px;}
+.pseccionderecha .sesion {background:var(--bckg2);padding:10px;padding-top:0px;}
+
+.miniseccion {position:Relative;height:160px;margin-top:15px;}
+.miniseccion:before {content:' '; background:black; opacity:0.6;position:absolute;top:0;left:0;width:570px;height:160px;}
+.minisecciontitulo {position:absolute;background:var(--white);top:0;left:0;font-weight:bold;display:flex;align-items:center;justify-content:center;width:200px;height:60px;font-size:25px;}
+.minisecctexto {font-size:12px;text-align:justify;margin-top:15px;}
+
+.doblefinal { margin-top: 10px; font-size: 12px; text-align: justify; width: 270px; }
+.doblefinal img {width:270px;height:80px;}
+
+/* FAQ */
+.pregunta { border-bottom: 1px solid; font-family: var(--pop); margin-bottom: -5px; }
+
+.loveregistro br {display:none;}
+
+/* Base */
+.lovewinsall {
+    box-sizing: border-box;
+    padding: 0;
+    border-radius: 30px;
+    width: 615px;
+    background: var(--fondo);
+}
+      
+      .minilovecabe {
+    font-family: var(--pop);
+    color: var(--pj);
+    font-weight: bold;
+    padding-top: 60px;
+    padding-left: 80px;
+    font-size: 20px;
+}
+      
+      
+.loveini i { font-size: 50px; margin: 50px 0; }
+.loveini { display: flex; flex-direction: column; align-items: center; justify-content: center; font-family: var(--ae); font-size: 40px; text-transform: uppercase; margin-bottom: 70px; border-bottom: 1px solid; }
+.lovetexto { padding: 0 50px; padding-bottom:50px;}
+
+.lovtex.razas ln { font-size: 16px; margin-bottom: -5px; }
+.lovtex.razas ln i { font-size: 13px; }
+
+/* TABLILLAS ****************************************************************************************************/
+.lovewinsall2 {
+    border-radius: 20px;
+    background: var(--fondo);
+    overflow: hidden;
+}
+      
+.lovecabe:after {
+    content: ' ';
+    background: var(--hojitasabias);
+    width: 631px;
+    height: 221px;
+    position: absolute;
+    background-size: cover;
+    top: -115px;opacity: .5;
+}
+      
+      .titulocb {
+    position: absolute;
+    font-family: var(--flo);
+    text-transform: uppercase;
+    color: var(--pj);
+    font-size: 40px;
+    top: 100px;
+    left: 80px;
+    letter-spacing: -5px;
+}
+      
+      
+      .subsi {
+    left: 80px;
+    position: absolute;
+    font-size: 10px;
+    font-family: var(--pop);
+    top: 135px;
+}
+      
+      .lovecabe {position: relative; height:200px;}
+
+      .lovtex {
+    padding: 00px 80px 80px 80px;
+}
+      
+      
+      .introdu { color:white;
+    padding: 40px 80px 40px 80px;
+    margin-left: -80px;
+    margin-right: -80px;
+    background: var(--pj);
+}
+      
+      .lovesub su {
+    position: relative;
+    z-index: 1;
+}
+      
+      .lovesub:after {
+    content: ' ';
+    width: 50px;
+    height: 50px;
+    background: var(--pj);
+    position: absolute;
+    left: -30px;
+    top: -10px;
+}
+      
+ln:after {
+    content: ' ';
+    width: 1px;
+    height: 105px;
+    background: var(--pj);
+    position: absolute;
+    top: 30px;
+    margin-left: 0px;
+}
+      
+ln {
+    font-family: var(--flo);
+    font-size: 15px;
+    margin-bottom: -10px;
+    background: var(--pj);
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    position: relative; color:white;
+}
+      
+      .trampita {
+    width: 1px;
+    height: 50px;
+    background: var(--pj);
+    margin-left: 19px;
+    margin-top: 9px;
+    margin-bottom: -15px;
+}
+      
+      
+      
+      .lovesub {
+    font-family: var(--pop); position: relative;
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+      
+      .trampita {
+    background: var(--pj);
+    width: 1px;
+    height: 25px;
+    margin-left: 19px;
+    margin-top: 9px;
+    margin-bottom: -15px;
+}
+      
+      tn {
+    width: 410px;
+    display: block;
+    margin-top: -30px;
+    margin-left: 55px;
+}
+      
+      
+      .datosdefuera {color:white;}
+      
+      .lovewinsall2 sa {
+    font-family: var(--pop);
+    font-size: 15px;
+    background: var(--pj);
+    padding: 5px 20px;
+}
+

@@ -1,0 +1,413 @@
+.ise-instagram-base {
+  background: #141414;
+  border-radius: 30px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+}
+.ise-instagram-portada {
+  background: var(--imagenportada);
+  width: 400px;
+  height: 700px;
+  margin: 20px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+.ise-instagram-contenidoderecha {
+  border-radius: 20px;
+  overflow: auto;
+  height: 700px;
+  width: 510px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.ise-instagram-cabecera {
+  position: relative;
+  font-family: var(--pop);
+}
+.cabecera-borde {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  border: 5px solid var(--colorprincipal);
+  padding: 5px;
+}
+.cabecera-imagen {
+  background: var(--iconperfil);
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.infomacion-nombre b {
+  color: #636363;
+  font-size: 11px;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 0px;
+}
+.infomacion-nombre {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--colorprincipal);
+}
+.infomacion-descripcion {
+  font-size: 12px;
+  width: 270px;
+}
+.cabecera-infomacion {
+  position: absolute;
+  top: 10px;
+  left: 180px;
+}
+.infomacion-descripcion i {
+  font-size: 7px;
+  color: var(--colorprincipal);
+  margin-top: 5px;
+  float: left;
+  margin-right: 5px;
+}
+.ise-instagram-historias {
+  margin-top: -30px;
+  display: flex;
+}
+.historia-borde {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 100%;
+  border: 1px solid var(--colorprincipal);
+  padding: 3px;
+}
+.historia-imagen {
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.historia-base-nombre {
+  margin-top: -10px;
+  font-family: var(--pop);
+  color: var(--colorprincipal);
+  font-size: 10px;
+  text-align: center;
+}
+.historia-base {
+  margin-right: 15px;
+}
+.historia-imagen img {
+  width: 45px;
+  height: 45px;
+}
+.cabecera-imagen img {
+  width: 120px;
+  height: 120px;
+}
+.ise-instagram-contenidoderecha::-webkit-scrollbar,
+.ise-instagram-gridimas::-webkit-scrollbar {
+  width: 0px !important;
+}
+.ise-instagram-post-icono {
+  background: var(--iconperfil);
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  background-size: contain;
+}
+.ise-instagram-post-nombreyfecha {
+  position: absolute;
+  top: 25px;
+  left: 75px;
+  font-family: var(--pop);
+}
+.ise-instagram-post-nombre {
+  color: var(--colorprincipal);
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.ise-instagram-post-fecha {
+  font-size: 10px;
+  color: #5c5a5c;
+  letter-spacing: 1px;
+  line-height: 0.5;
+}
+.ise-instagram-post-base {
+  width: 510px;
+  margin: 0 auto;
+  position: relative;
+  background: #111;
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+.ise-instagram-post-cabecera {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.ise-instagram-post-imagen img {
+  width: 510px;
+}
+.ise-instagram-post-imagen-descripcion {
+  padding-bottom: 30px;
+  text-align: justify;
+  margin: 10px 40px;
+  font-family: var(--pop);
+  color: #737373;
+  line-height: 17px;
+}
+.ise-instagram-hoveraso-deco:before {
+  content: "\f106";
+  width: 30px;
+  height: 30px;
+  background: white;
+  margin-left: 288px;
+  border-radius: 100%;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "FontAwesome";
+  margin-top: -10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.ise-instagram-hoveraso-deco {
+  background: var(--colorprincipal);
+  border-radius: 100%;
+  width: 600px;
+  height: 600px;
+  margin-left: -100px;
+  position: absolute;
+  bottom: -550px;
+  transition: 1.5s ease 0.8s;
+}
+.ise-instagram-hoveraso {
+  opacity: 1;
+  position: absolute;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 400px;
+  height: 700px;
+  margin-left: 20px;
+  margin-top: 20px;
+  transition: height 1.5s ease 2s;
+}
+.ise-instagram-hoveraso:hover .ise-instagram-hoveraso-deco {
+  bottom: 0;
+  height: 800px;
+  border-radius: 0;
+  opacity: 0.7;
+  transition:
+    height 1.5s ease,
+    bottom 1.5s ease,
+    border-radius 1.5s ease,
+    opacity 1.5s ease 1s;
+}
+.ise-instagram-gridimas img {
+  width: 120px;
+  height: 110px;
+  border-radius: 15px;
+  margin: 3px;
+}
+.ise-instagram-gridimas {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  top: 10px;
+  left: 10px;
+  width: 380px;
+  max-height: 680px;
+  overflow: auto;
+  opacity: 0;
+  transition: opacity 1.2s ease;
+}
+.ise-instagram-hoveraso:hover .ise-instagram-gridimas {
+  opacity: 1;
+  transition: opacity 1.5s ease 2s;
+}
+.iseinsta-seguidor {
+  font-family: var(--pop);
+  height: 220px;
+  background: var(--backseguidor);
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  width: 631px;
+  margin: 0 auto;
+}
+.iseinsta-seguidor:after {
+  content: " ";
+  background: black;
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  opacity: 0.7;
+}
+.iseinsta-tuperfil img {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+  border: 3px solid transparent;
+  outline: 3px solid var(--colorprincipal);
+}
+.iseinsta-tuperfil b {
+  font-weight: normal;
+  color: var(--colorprincipal);
+  font-size: 10px;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+.iseinsta-tuperfil {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 35px;
+  left: 40px;
+}
+.iseinsta-info b {
+  color: var(--colorprincipal);
+  font-size: 25px;
+  text-transform: none;
+}
+.iseinsta-info {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: 20px;
+  left: 180px;
+  height: 220px;
+  width: 450px;
+  justify-content: center;
+}
+.foto-que-comentas img {
+  width: 190px;
+  border-radius: 20px;
+  height: 190px;
+}
+.foto-que-comentas {
+  position: absolute;
+  z-index: 1;
+  top: 15px;
+  left: 15px;
+}
+.tu-comentario {
+  position: absolute;
+  z-index: 1;
+  background: #141414;
+  border-radius: 20px;
+  left: 220px;
+  width: 350px;
+  height: 160px;
+  top: 30px;
+  box-sizing: border-box;
+  padding: 20px;
+  font-size: 11px;
+  padding-top: 5px;
+}
+.tu-comentario b {
+  color: var(--colorprincipal);
+  margin-right: 2px;
+  line-height: 40px;
+}
+.tu-foto-perfil img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  border: 2px solid transparent;
+  outline: 5px solid var(--colorprincipal);
+}
+.tu-foto-perfil {
+  position: absolute;
+  z-index: 1;
+  right: 20px;
+  bottom: 20px;
+}
+.ise-instagram-post-separador:before {
+  content: "comentarios";
+  font-family: var(--pop);
+  margin-top: 35px;
+  color: #a5a5a5;
+  font-size: 11px;
+}
+.ise-instagram-post-separador {
+  background: #232323;
+  width: 150px;
+  height: 5px;
+  border-radius: 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ise-instagram-post-comentario {
+  display: flex;
+  box-sizing: border-box;
+  position: relative;
+  margin: 0 auto;
+  background: #141414;
+  width: 480px;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.ise-instagram-post-comentario-imagen img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+.ise-instagram-post-comentario-imagen {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.ise-instagram-post-comentario-nombre {
+  color: var(--colorprincipal);
+  font-family: var(--pop);
+  position: absolute;
+  top: 20px;
+  left: 75px;
+}
+.ise-instagram-post-comentario-texto {
+  width: 385px;
+  padding-top: 40px;
+  padding-left: 15px;
+  margin-bottom: 25px;
+}
+.publicacionnormal .ise-instagram-post-imagen-descripcion:after {
+    font-family: "FontAwesome";
+    content: "\f004";
+    color: var(--colorprincipal);
+    font-size: 15px;
+    position: absolute;
+    left: 40px;
+    margin-top: 35px;
+}
+.publicacionnormal .ise-instagram-post-imagen-descripcion:before {
+  content: "\f075";
+  font-family: "FontAwesome";
+  color: var(--colorprincipal);
+  font-size: 15px;
+  position: absolute;
+  left: 70px;
+  margin-top: 51px;
+}
+.ise-instagram-post-comentario-texto:before {
+  content: "\f004";
+  font-family: "FontAwesome";
+  color: var(--colorprincipal);
+  position: absolute;
+  right: 20px;
+  top: 15px;
+  font-size: 10px;
+}

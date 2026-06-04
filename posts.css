@@ -1,0 +1,587 @@
+.haber .h3 {
+    font-family: var(--flo);
+    font-size: 20px;
+    border-bottom: 1px solid var(--letra);
+    text-transform: lowercase;
+    padding: 10px;
+    width: 900px;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+.Dato.frase conts {
+    width: 320px;
+}
+
+.ppavatar img {
+    width: 350px;
+}
+
+.postbody a {
+    text-decoration: underline;
+}
+
+div#Contenido:hover {opacity:1;transition:1s ease;}
+
+.Dato.orientacion, .Dato.raza, .Dato.ocupación, .Dato.apodos, .Dato.aroma, .Dato.edad {
+    width: 320px;
+    margin-top: 10px;
+    border-bottom: 1px solid var(--pj);
+    left: 29px;
+    position: absolute;
+    box-sizing: border-box;
+    padding-left: 20px;
+    
+}
+
+.Dato.frase {
+    position: absolute;
+    left: 29px;
+    top: 255px;
+    width: 320px;
+    height: 170px;
+    box-sizing: border-box;
+    align-items: center;
+    display: flex;
+    padding-left: 20px; padding-right: 20px;
+}
+
+.Dato.apodos {
+    top: 20px;
+}
+
+.Dato.edad { top: 60px; }
+
+.Dato.raza { top: 100px; }
+
+.Dato.ocupación {
+    top: 140px;
+}
+
+.Dato.orientacion {
+    top: 180px;
+}
+
+.Dato.aroma {
+    top: 220px; line-height: 12px;
+    padding-bottom: 3px;
+}
+
+      .Dato.mensajes:after { content: ' MENSAJES'; margin-left:2px;}
+      .Dato.byuns:after { content: ' BYUNS'; margin-left:2px;}
+
+
+
+
+
+div#Contenido {
+    transition: 1s ease;
+    opacity: 0;
+    background: #000000d9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 550px;
+    z-index: 1;
+    box-sizing: border-box;color:white;
+}
+
+.lili {
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    background: var(--pj);
+    left: 29px;
+}
+
+.minip {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.minip img, .minip { width: 320px; height: 120px; }
+
+.isi {
+    position: relative;
+}
+
+div#nombrecontenedor { position: relative; }
+
+.fonditopostizquierda {
+    background: var(--pj);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 20px;
+    margin-top: 105px;
+}
+
+.cajcont {
+    margin-bottom: 10px;
+}
+
+.postbody {
+    margin-top: 10px;
+    margin-left: 5px;
+    text-align: justify;
+    box-sizing: border-box;
+    padding: 52px;
+    position: relative;
+    background: var(--fondo2);
+    border-radius: 20px 20px 0 0;
+    min-height: 895px;
+    width: 735px;
+}
+
+.datosdefuera {
+    display: flex;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    width: 740px;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+}
+
+.Dato { font-family: var(--pop); text-transform: uppercase; font-size: 10px; }
+
+.partebajis {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    background: var(--pj);
+    border-radius: 0 0 20px 20px;
+    height: 240px;
+}
+
+.partebajis:after, .fonditopostizquierda:after {
+    content: ' ';
+    background: url(https://i.imgur.com/Nf6S7c1.png);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    opacity: .3;
+}
+
+.partebajis:after {border-radius: 0 0 20px 20px;}
+
+.parej {
+    background: var(--fondo2);
+    position: absolute;
+    z-index: 1;
+    width: 410px;
+    border-radius: 0 15px 15px 0;
+    box-shadow: 3px 3px 3px #00000069;
+    bottom: 20px;
+    height: 160px;
+}
+
+.imgpareja {
+    overflow: hidden;
+    border-radius: 15px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.imgpareja img { width: 120px; height: 120px; }
+.Dato.frasepareja {font-size: 10px!important; text-transform: none;}
+.postbody strong { color: var(--pj); }
+
+.frasedepareja {
+    text-align: center;
+    box-sizing: border-box;
+    height: 160px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 265px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--pop);
+    padding: 0 20px;
+}
+
+.inven {
+    position: absolute;
+    right: 0;
+    height: 160px;
+    width: 715px;
+    background: var(--fondo2);
+    box-shadow: -3px 3px 3px #00000069;
+    z-index: 1;
+    bottom: 20px;
+    border-radius: 15px 0 0 15px;display: flex; align-items: center;
+}
+
+.cajitamedia {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+}
+
+      .Dato.inventario img { margin: 1px; width: 50px; height: 50px; }
+	  .inven tr td img { transition: transform 0.3s ease-in-out;}
+      .Dato.inventario::-webkit-scrollbar {width:0px!important;}
+	   .Dato.inventario {
+    height: 132px;
+    overflow: auto;
+    padding: 0 25px;
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+.Dato.subgénero {
+    font-size: 23px; color:white;
+}
+
+.elsubgenero {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding-right: 30px;
+    font-family: var(--pop);
+    font-weight: 700;
+    position: absolute;
+    right: 0;
+    top: 530px;
+}
+
+.pruebameda {
+    width: 350px;
+    background: var(--fondo2);
+    z-index: 1;
+    height: 165px;
+    border-radius: 20px 0 0 20px;
+    box-shadow: -3px 3px 3px #00000069;
+    position: absolute;
+    right: 0;
+    top: 585px;
+}
+
+.quien.le.dio.laik {
+    font-family: var(--pop);
+    z-index: 1;
+    position: absolute;
+    top: 760px;
+    right: 0;
+    width: 350px;
+    text-align: right;
+    box-sizing: border-box;
+    padding-right: 20px;
+}
+
+p.fa_like_list { font-family: var(--pop); font-size: 11px;color:white;}
+      p.fa_like_list a { color: white; text-decoration: none; }
+
+
+
+a.linkperma {
+    font-size: 20px;
+    margin-top: 30px; color:white;
+}
+
+bipin a {
+    color: #fff;
+    margin: 5px 0;
+    font-size: 15px;
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  transition: 1s ease;
+}
+
+bipin a:hover {
+    color: var(--pj);
+    background: white;
+    transition: 1s ease;
+}
+
+a.linkperma {
+    font-size: 20px;
+    margin-top: 30px;
+    color: white;
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+bipin { display: flex; flex-direction: column; align-items: center; margin-top:20px;}
+
+.deslizar {
+    display: flex;
+    z-index: 1;
+}
+
+.minimenu {
+    order: 0;
+    width: 68px;
+    height: 510px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;z-index: 1;
+}
+
+.postprofile {
+    margin-top: -40px;
+    border-radius: 20px 0 0 20px;
+    width: 350px;
+    height: 550px;
+    overflow: hidden;
+    box-shadow: -3px 3px 3px #00000069;
+    z-index: 1; margin-left:2px;
+}
+
+.deslizar {
+    display: flex;
+}
+
+.perfilymenu {
+    position: sticky;
+    border-radius: 20px 0 0 0;
+    margin-top: 55px;
+    height: 800px;
+    top: 125px;
+}
+
+.estatema {
+    width: max-content;
+    text-transform: uppercase;
+    font-family: var(--pop);
+    font-size: 10px;
+    background: var(--color22);
+    text-align: center;
+    border-radius: 0 0 50px 50px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 30px;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+}
+
+button.rep-button.fa_liked span {
+    font-size: 0px;
+}
+
+button.rep-button.fa_like, button.rep-button.fa_liked { border: 0; display: flex; align-items: center; font-size: 0px; cursor: pointer; }
+
+
+span.rep-nb {
+    font-size: 11px!important;color:var(--pj);
+    font-family: var(--pop);
+    position: absolute;
+    background: var(--letra);
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    line-height: 20px;
+    margin-left: 25px;
+    margin-top: 25px!important; margin-right:0!important;
+}
+
+.fa_like_div {
+    display: flex;
+    height: 35px;
+    align-items: center;
+    width: 35px;
+    justify-content: center;
+}
+
+button.rep-button.fa_like {
+    background: #2f2f2f!important;
+    display: flex!important;
+    height: 35px!important;
+    align-items: center!important;
+    width: 35px!important;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+button.rep-button.fa_liked {
+    background: #cb3636!important;
+    display: flex!important;
+    height: 35px!important;
+    align-items: center!important;
+    width: 35px!important;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+button.rep-button.fa_like:before, button.rep-button.fa_liked:before {
+    content: '\F59D';
+    font-family: 'bootstrap-icons';
+    font-size: 13px;
+    z-index: 1;
+    position: absolute;
+    color:var(--letra);
+}
+
+.perflink {
+    display: flex;
+    align-items: center;
+}
+
+.contactoylike {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px; width: 410px;
+}
+
+.perflink a, .linkpost a {
+    background: var(--pj);
+    color: white;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px; margin-right:5px;
+}
+
+
+.elicono {
+    position: absolute;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 10px solid var(--pj);
+    right: 15px;
+    top: 15px;
+}
+
+
+.primera {
+    border-radius: 20px;
+    position: relative;
+    height: 200px; overflow:hidden;
+    background: linear-gradient(90deg, var(--pj) 0%, rgba(0, 212, 255, 0) 100%);
+}
+
+.phname {
+    position: absolute;
+    box-sizing: border-box;
+    padding-left: 90px;
+    display: flex;
+    align-items: center;
+    height: 200px;
+    width: 600px;z-index:1;
+}
+
+.phname strong {
+    font-family: var(--flo);
+    font-size: 45px;
+    text-transform: lowercase;
+    color: white!important;
+    font-weight: normal;
+}
+
+.primera:after {
+    content: ' ';
+    background: url(https://i.imgur.com/Nf6S7c1.png);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .2;
+}
+
+.rango {
+    color: white;
+    font-size: 11px;
+    position: absolute;
+    left: 90px;
+    top: 120px;
+    z-index: 1;
+    font-family: var(--pop);
+    text-transform: uppercase;
+}
+
+
+
+.categoriawa {
+    text-align: left;
+    font-family: var(--flo);
+    font-size: 25px;
+    text-transform: lowercase;
+    margin-top: 50px;
+    border-bottom: 1px solid var(--letra);
+}
+
+
+.chuchuwa {
+    font-family: var(--pop);
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 20px;
+    position: absolute;
+    right: 0;
+}
+
+.chuchuwa a {
+    font-size: 13px!important;
+}
+
+      /*Likes*/
+      button.rep-button.fa_like span { color:var(--pj)!important; margin-left: 25px;margin-top: 2px;}
+      button.rep-button.fa_liked span::before { font-size: 0px!important; }
+      button.rep-button.fa_liked span.rep-nb::before { font-size: 10px!important; color: var(--pj);    }
+      
+      .nuevote {
+    border-top: 1px solid #2f2f2f;
+    border-bottom: 1px solid #2f2f2f;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    box-sizing: border-box;
+}
+      
+      .nuevote a {
+    font-family: var(--flo);
+    text-transform: lowercase;
+    font-size: 20px;
+}
+      
+      .nuevote i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+      
+      .otracosi.jewe {
+    font-size: 10px;
+    position: absolute;
+    right: 25px;
+    text-transform: uppercase;
+    font-family: var(--pop);
+    margin-top: -32px;
+}
+      
+      p.fa_like_list {line-height:12px;}
+
+.Dato.icono .poste-label, .Dato.inventario .poste-label, .Dato.medallas .poste-label, .Dato.parejaimg .poste-label, .Dato.frasepareja .poste-label, .Dato.mensajes .poste-label,
+.Dato.byuns .poste-label, .Dato.ocupación .poste-label, .Dato.raza .poste-label, .Dato.edad .poste-label, .Dato.subgénero .poste-label, .Dato.orientacion .poste-label, 
+.Dato.miniportada .poste-label, .Dato.apodos .poste-label, .Dato.aroma .poste-label, .Dato.frase .poste-label, .Dato.reputación .poste-label { display: none; }
