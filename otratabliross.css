@@ -1,0 +1,91 @@
+/*
+
+       _ __ ___  ___ ___   _ __ ___  ___  ___  _   _ _ __ ___ ___  ___ 
+      | '__/ _ \/ __/ __| | '__/ _ \/ __|/ _ \| | | | '__/ __/ _ \/ __|
+      | | | (_) \__ \__ \ | | |  __/\__ \ (_) | |_| | | | (_|  __/\__ \
+      |_|  \___/|___/___/ |_|  \___||___/\___/ \__,_|_|  \___\___||___/
+
+
+                      https://rossresources.tumblr.com/
+   
+                    CRIADO POR ROSS, NÃO TIRE OS CRÉDITOS
+
+                                *:･ﾟ✧*:･ﾟ✧
+
+                   CREATED BY ROSS DON'T REMOVE MY CREDITS
+          
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.cdnfonts.com/css/damn'); 
+
+#rr_yours-sincerely {
+  --width: 550px;
+  --img-height: 50px;
+  --img-margin: 10px;
+  --spacing: 50px;
+  --lines: #555555;
+  position: relative;
+  font: 13px/180% 'Karla', sans-serif;
+  color: var(--text-color);
+}
+
+#rr_yours-sincerely a[href="https://is.gd/rossr"] ~ .rcontainer {
+  width: var(--width);
+  position: relative;
+  padding: 30px;
+}
+
+#rr_yours-sincerely a[href="https://is.gd/rossr"] ~ .rcontainer .rheader {
+  padding: 20px;
+  border: solid var(--lines);
+  border-width: 1px 1px 1px 0;
+  font: 44px/100% 'Damn', sans-serif;
+  text-transform: lowercase;
+}
+
+#rr_yours-sincerely a[href="https://is.gd/rossr"] ~ .rcontainer .rimg {
+  height: var(--img-height);
+  margin: var(--img-margin) 0;
+  background: center/cover;
+}
+
+#rr_yours-sincerely a[href="https://is.gd/rossr"] ~ .rcontainer .rtxt {
+  padding: var(--spacing);
+  padding-right: calc(var(--spacing) - 10px);
+  padding-bottom: calc(var(--spacing) - 15px);
+  border: solid var(--lines);
+  border-width: 1px 0 1px 1px;
+  text-align: justify;
+}
+
+#rr_yours-sincerely a[href="https://is.gd/rossr"] ~ .rcontainer .rfooter {
+  padding: 20px;
+  border: solid var(--lines);
+  border-width: 1px 1px 1px 0;
+  text-transform: uppercase;
+  font-size: 9px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+#rr_yours-sincerely a[href="https://is.gd/rossr"] {
+  height: 12px;
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#rr_yours-sincerely:after {
+  display: block;
+  content: "「RR」";
+  font: bold 7px/12px 'Arial';
+  text-transform: uppercase;
+  opacity: .7;
+}
+
+#rr_yours-sincerely:hover::after {
+  content: "「is.gd/rossr」";
+}
