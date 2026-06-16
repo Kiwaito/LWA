@@ -224,11 +224,15 @@ p.anuncio i {
 }
 
 lecompensa strong {
-  font-family: var(--pop);
-  font-size: 17px;
-  font-weight: normal;
-  margin: 10px;
-  margin-right: 25px;
+    font-family: var(--pop);
+    font-size: 17px;
+    font-weight: normal;
+    margin: 10px;
+    margin-right: 25px;
+    display: block;
+    width: 120px;
+    margin-left: 15px;
+    border-right: 1px solid var(--ispicial);
 }
 
 lecompensa {
