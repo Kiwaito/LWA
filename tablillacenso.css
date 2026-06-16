@@ -1,0 +1,407 @@
+.basedelcenso {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  border: 1px solid var(--fondo);
+  border-radius: 10px;
+  background: radial-gradient(circle at top, var(--ispicial), transparent 45%), var(--fondo);
+}
+
+.titulodelcenso {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--flo);
+  font-size: 40px;
+  height: 120px;
+  text-transform: lowercase;
+  border-radius: 20px;
+  text-align: center;
+  padding: 35px 20px;
+  margin-bottom: 25px;
+}
+
+.novedadimportante {
+  z-index: 1;
+  border: 1px solid var(--ispicial2);
+  display: flex;
+  background: var(--fondo2);
+  border-radius: 10px 20px 20px 10px;
+  width: 1020px;
+  margin: 0 auto;
+  position: relative;
+  font-family: var(--pop);
+  height: 100px;
+}
+
+.dibucenso {
+  background: var(--ispicial2);
+  border-radius: 10px 50px 50px 10px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+}
+
+.novecensoim {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  font-size: 20px;
+  width: 160px;
+  line-height: 17px;
+  border-right: 1px solid var(--fondo);
+  font-weight: bold;
+  color: var(--ispicial);
+}
+
+.novecensotxt {
+  width: 730px;
+  align-items: center;
+  display: flex;
+  box-sizing: border-box;
+  padding: 20px 30px;
+}
+
+.doblesitios {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.fechasimportantes,
+.sistemaquincenal,
+.postsextras {
+  margin-right: 20px;
+  width: 350px;
+}
+
+.novetitcen {
+  border-radius: 10px 10px 0 0;
+  background: linear-gradient(63deg, var(--fondo2) 0%, var(--fondo) 100%);
+  font-family: var(--pop);
+  color: var(--ispicial);
+  border-bottom: 1px solid var(--fondo);
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding-left: 55px;
+}
+
+.requisitoscenso,
+.recompensas,
+.empleoreco {
+  width: 640px;
+}
+
+.novetitcen i {
+  position: absolute;
+  left: 25px;
+  font-size: 35px;
+  opacity: .2;
+  transform: rotate(342deg);
+}
+
+.basedelcenso:after {
+  content: ' ';
+  background: url(https://2img.net/i.imgur.com/Nf6S7c1.png);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: .1;
+}
+
+.lineatiempito {
+  padding-left: 10px;
+  border-left: 1px solid var(--ispicial);
+  margin-left: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+fechita i {
+  color: var(--ispicial);
+  font-size: 9px;
+  position: absolute;
+  margin-left: -15px;
+  margin-top: 5px;
+}
+
+fechita strong {
+  font-family: var(--pop);
+}
+
+fechita {
+  margin-bottom: 2px;
+  display: block;
+}
+
+iframe {
+  position: absolute;
+  margin-left: 140px;
+  margin-top: -30px;
+}
+
+elrequi {
+  margin-left: 20px;
+  display: block;
+}
+
+elrequi i {
+  color: var(--ispicial);
+  font-size: 10px;
+  margin-right: 5px;
+}
+
+p.anuncio i {
+  color: var(--ispicial);
+}
+
+.basecen {
+  background: var(--fondo2);
+  border-radius: 10px;
+  border: 1px solid var(--fondo);
+  position: relative;
+}
+
+.cosodual {
+  display: flex;
+}
+
+.expquin {
+  text-align: center;
+  width: 174px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.expquin i {
+  color: var(--ispicial);
+  font-size: 35px;
+  margin-top: 5px;
+}
+
+.expquin strong {
+  font-size: 14px;
+  font-family: var(--pop);
+  font-weight: normal;
+  margin-bottom: -11px;
+}
+
+.sinocumple {
+  background: var(--fondo);
+  margin: 0 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 20px;
+  opacity: .8;
+  font-size: 12px;
+  padding-top: 13px;
+}
+
+.sinocumple strong {
+  font-family: var(--pop);
+  font-weight: normal;
+  font-size: 13px;
+  margin-top: 10px;
+  margin-bottom: -5px;
+}
+
+.sinocumple i {
+  color: var(--ispicial2);
+}
+
+lecompensa strong {
+  font-family: var(--pop);
+  font-size: 17px;
+  font-weight: normal;
+  margin: 10px;
+  margin-right: 25px;
+}
+
+lecompensa {
+  margin-top: 5px;
+  margin-left: 30px;
+  border-bottom: 1px solid var(--ispicial);
+  border-left: 1px solid var(--ispicial);
+  border-radius: 10px 0 0 10px;
+  margin-bottom: 5px;
+  margin-right: 30px;
+  display: flex;
+  align-items: center;
+}
+
+infourec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+}
+
+infourec i {
+  color: var(--ispicial);
+  margin-right: 5px;
+  font-size: 15px;
+}
+
+.expquin u {
+  text-decoration: none;
+  font-size: 13px;
+  margin-bottom: -17px;
+  font-family: var(--pop);
+}
+
+.postsextras p {
+  margin: 0 20px;
+}
+
+ejemplo {
+  margin: 0 auto;
+  background: var(--ispicial2);
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-family: var(--pop);
+  font-size: 11px;
+  margin-left: 26px;
+}
+
+aclara {
+  font-size: 11px;
+  margin: 25px;
+  display: block;
+  margin-bottom: 0;
+}
+
+.postsextras ul {
+  margin-right: 45px;
+  margin-block-start: 12px;
+  padding-inline-start: 50px;
+}
+
+aclara i {
+  color: var(--ispicial);
+}
+
+.lossueldos {
+  font-family: var(--pop);
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 50px;
+  margin-right: 0;
+  margin-top: 10px;
+}
+
+suel {
+  display: block;
+  width: 195px;
+  margin-bottom: 5px;
+}
+
+aclarasem {
+  display: flex;
+  width: 560px;
+  margin-left: 35px;
+  padding-top: 11px;
+  font-size: 12px;
+  align-items: center;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+aclarasem i {
+  color: var(--ispicial);
+  font-size: 18px;
+  margin-right: 12px;
+  margin-top: 5px;
+}
+
+aclarasem a {
+  color: var(--ispicial);
+  margin-left: 4px;
+}
+
+suel strong {
+  font-weight: normal;
+}
+
+.basecen.unapartadolargo {
+  z-index: 1;
+  width: 1015px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.unapartadolargo .expquin {
+  margin-bottom: 15px;
+  width: 340px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 50px;
+}
+
+.expquin a {
+  color: var(--ispicial);
+}
+
+.basecen.unapartadolargo .expquin i {
+  font-size: 25px;
+}
+
+.basecen.unapartadolargo .expquin strong {
+  font-weight: bold;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.basecen.unapartadolargo dl#codeBox dt {
+  font-size: 0;
+  padding: 14px;
+}
+
+.basecen.unapartadolargo dl.codebox code {
+  font-size: 8px;
+  text-align: justify;
+}
+
+.basecen.unapartadolargo .copyCode {
+  right: revert;
+}
+
+.basecen.unapartadolargo.pjsfir .cosodual {
+  flex-wrap: wrap;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.registro.firmado {
+  color: var(--ispicial);
+  text-decoration: line-through;
+}
+
+.registro:before {
+  display: inline-block;
+  content: '\F287 ';
+  color: Var(--ispicial);
+  font-family: bootstrap-icons !important;
+  font-size: 7px;
+  margin-right: 5px;
+}
+
+.registro {
+  margin-top: 15px;
+  font-family: var(--pop);
+  margin-bottom: -10px;
+  width: 195px;
+}
