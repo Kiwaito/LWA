@@ -184,10 +184,22 @@
     z-index: 1;
 }
 
+.temaslibres {
+    width: 300px;
+    margin-top: 10px;
+    position: absolute;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.temaslibres a { background: var(--fondo2); font-family: var(--pop); display: block; padding: 5px 10px; margin: 0 5px 5px 0; font-size: 11px; }
+
 .nombrepromo {
     font-family: var(--flo);
     font-size: 19px;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 20px;
 }
 
