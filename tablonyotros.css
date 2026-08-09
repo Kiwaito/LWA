@@ -239,25 +239,13 @@
     position: relative;
 }
 
-.nombreestacion {
-    font-family: var(--flo);
-    border-bottom: 1px solid #1c1c1c;
-    font-size: 18px;
-    width: 400px;
-}
+.nombreestacion { font-family: var(--pop); border-top: 1px solid #1c1c1c; font-size: 10px; width: 100px; text-transform: uppercase; letter-spacing: 1px; position: absolute; right: 40px; top: 30px; }
 
 .temperatura {
     font-family: var(--flo);
     position: absolute;
-    top: 0;
+    top: 13px;
     right: 85px;
-}
-
-.descripcionestacion {
-    margin-top: 5px;
-    width: 370px;
-    text-align: justify;
-    font-size: 12px;
 }
 
 .estacion img {
