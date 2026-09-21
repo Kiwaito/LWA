@@ -23,47 +23,32 @@
 
 div#Contenido:hover {opacity:1;transition:1s ease;}
 
-.Dato.orientacion, .Dato.raza, .Dato.ocupación, .Dato.apodos, .Dato.aroma, .Dato.edad {
+.Dato.orientacion, .Dato.raza, .Dato.ocupación, .Dato.apodos, .Dato.aroma, .Dato.edad, .Dato.estado {
     width: 320px;
-    margin-top: 10px;
-    border-bottom: 1px solid var(--pj);
-    left: 29px;
-    position: absolute;
-    box-sizing: border-box;
+    margin-left: 29px;
+    margin-top: 25px;
     padding-left: 20px;
-    
+    box-sizing: border-box;
+    border-bottom: 1px solid var(--pj);
+    position: relative;
+    line-height: 15px;
 }
 
 .Dato.frase {
     position: absolute;
     left: 29px;
-    top: 255px;
+    top: 300px;
     width: 320px;
-    height: 170px;
+    height: 130px;
     box-sizing: border-box;
     align-items: center;
     display: flex;
-    padding-left: 20px; padding-right: 20px;
-}
-
-.Dato.apodos {
-    top: 20px;
-}
-
-.Dato.edad { top: 60px; }
-
-.Dato.raza { top: 100px; }
-
-.Dato.ocupación {
-    top: 140px;
-}
-
-.Dato.orientacion {
-    top: 180px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .Dato.aroma {
-    top: 220px; line-height: 12px;
+    ine-height: 12px;
     padding-bottom: 3px;
 }
 
@@ -584,4 +569,4 @@ button.rep-button.fa_like:before, button.rep-button.fa_liked:before {
 
 .Dato.icono .poste-label, .Dato.inventario .poste-label, .Dato.medallas .poste-label, .Dato.parejaimg .poste-label, .Dato.frasepareja .poste-label, .Dato.mensajes .poste-label,
 .Dato.byuns .poste-label, .Dato.ocupación .poste-label, .Dato.raza .poste-label, .Dato.edad .poste-label, .Dato.subgénero .poste-label, .Dato.orientacion .poste-label, 
-.Dato.miniportada .poste-label, .Dato.apodos .poste-label, .Dato.aroma .poste-label, .Dato.frase .poste-label, .Dato.reputación .poste-label { display: none; }
+.Dato.miniportada .poste-label, .Dato.apodos .poste-label, .Dato.aroma .poste-label, .Dato.frase .poste-label, .Dato.reputación .poste-label, .Dato.estado .poste-label{ display: none; }
