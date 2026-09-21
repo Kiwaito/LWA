@@ -7,7 +7,24 @@
 
 .linkregis {display:flex;margin-top:-14px;}
 .linkregis a { text-decoration:none;color: black; background: var(--prin); text-transform: uppercase; font-family: var(--pop); margin-right: 1px; width: 100%; text-align: center; height: 25px; display: flex; align-items: center; justify-content: center; text-decoration: none; }
-.actutu { font-family: var(--pop);font-size: 11px; padding: 10px 30px 30px 30px; }
+.lovewinsall2.deregistro .actutu {
+    box-sizing: border-box;
+    padding: 2px 40px 32px;
+    color: #a9a9a9;
+    font-family: var(--pop);
+    font-size: 11px;
+    line-height: 1.9;
+    text-align: justify;
+}
+
+.lovewinsall2.deregistro .actutu a {
+    color: var(--pj);
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    transition: border-color .25s ease, opacity .25s ease;
+}
+
+.lovewinsall2.deregistro .actutu a:hover { opacity: .75; border-bottom-color: var(--pj); }
 
 /* Registros */
 .loveregi { border-bottom: 1px solid; border-top: 1px solid; font-family: var(--ae); font-size: 30px; padding: 20px;}
@@ -25,7 +42,18 @@
     display: flex;
     flex-wrap: wrap;
 }
-.lovewinsall2.deregistro { border-radius: 20px; width: 400px; margin: 0 auto; }
+.lovewinsall2.deregistro {
+    box-sizing: border-box;
+    width: 400px;
+    margin: 35px auto;
+    padding: 0;
+    background: #141414;
+    border: 1px solid #2c2c2c;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.35);
+    position: relative;
+}
 
 /* Tienda */
 .item:hover { border: 1px solid #373737; transition:1s ease;}
