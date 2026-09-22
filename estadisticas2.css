@@ -3,16 +3,6 @@
 }
   
   
-  .estad-listado-contenido a[href="/u1"] span:before {
-    content: '\e671';
-    display: inline-block;
-    color: var(--spicial);
-    font-size: 14px;
-    font-family: 'FontAwesome';
-    margin-right: 5px;
-}
-
-  
   /*estadisticas*/
 :root {
     --estad-ancho: 1100px;
@@ -684,18 +674,6 @@ margin-left: -5px;
 	font-family: var(--pop);
 	color: #454545;
 }
-
-
-.estad-listado-contenido a::after {
-	content: '\F2EF';
-	font-family: 'bootstrap-icons';
-	font-size: 9px;
-	color: var(--letra);
-	opacity: .5;
-	position: relative;
-	top: -2px;
-	margin: 0 8px;
-}
   
 .estad-listado-contenido a:last-of-type:after {
   display: none;}
@@ -809,4 +787,50 @@ margin-left: -5px;
     text-align: justify;
     margin-top: 5px;
     margin-left: 5px;
+}
+
+.estad-listado.estad-online.conectados .estad-listado-contenido {
+	height: 130px;
+}
+.stahoratexto {
+    display: none;
+}
+
+.stahoraicons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+}
+
+.stahoraicons a {
+	display: block;
+	width: 50px;
+	height: 50px;
+	position: relative;
+}
+
+.stahoraicons img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+	border: 1px solid var(--color-grupo);
+	padding: 1px;
+}
+
+.estad-listado-contenido .stahora-avatar[href="/u1"]::before {
+    content: '\e671';
+    position: absolute;
+    top: -7px;
+    left: 0px;
+    transform: translateX(-50%);
+    color: var(--ispicial);
+    font-size: 20px;
+    font-family: 'FontAwesome';
+    z-index: 5;
+    filter: drop-shadow(0 0 3px color-mix(in srgb, var(--ispicial) 55%, transparent));
 }
